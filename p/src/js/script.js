@@ -9,9 +9,9 @@ if (localStorage.getItem("value")) {
 themeIcon[0].onclick = () => {
   document.body.classList.toggle("dark-theme");
   if (document.body.classList.contains("dark-theme")) {
-    themeIcon[0].src = "../../img/sun.png";
+    themeIcon[0].src = "../img/sun.png";
   } else {
-    themeIcon[0].src = "../../img/moon.png";
+    themeIcon[0].src = "../img/moon.png";
     localStorage.removeItem("value");
     localStorage.removeItem("icon");
   }
